@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #27b5ce, #ce4747);
+ }
+      
+table{
+   border-collapse: collapse;
+   margin: auto;
+   font-family: verdana;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: bold;
+   border: 3px dashed black;
+   padding: 20px 10px 10px 10px;
+}
+input[type=text], input[type=email], input[type=number],input[type=tel],input[type=date]
+{
+    width: 50%;
+    padding: 4px 10px;
+    margin: 5px 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=submit], input[type=reset]{
+    width: 15%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(91, 236, 219);
+    font-weight: bold;
+}
+
+.myradio{
+    transform: scale(1.5);
+}
+.inner{
+     background:linear-gradient(to top, #27b5ce, #ce4747);
+}
+.ch1{
+    transform: scale(1.5);
+}
+
+
+

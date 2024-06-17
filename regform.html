@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style3.css" type = "text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    </head>
+<body>
+    <table align="center" cellpadding="10" class="t1">
+    
+         <tr>
+            <td>First Name</td>
+            <td><input type="text" name="firstname" id="firstname" maxlength="50"> (Max 50 Characters Allowed)</td>
+            </tr>
+         <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lasttname" id="lastname" maxlength="50"> (Max 50 Characters Allowed)</td>
+        </tr>
+        
+         <tr>
+            <td>Email ID</td>
+            <td><input type ="email" name = "email address" id ="email address"></td>
+       </tr>
+       <tr>
+        <td>Mobile Number</td>
+           <td> <input type="tel" name="number" id="number" maxlength="10">(10 Digits Allowed)</td>
+           </tr>
+       <tr>
+         <td>Gender</td>
+            <td><input type="radio"  class="myradio" name="gender" id="male" value="male"> Male
+                <input type="radio" class="myradio" name="gender" id="female" value="female"> Female</td>
+            </tr>
+       
+        <tr>
+            <td>Date of Birth(DOB)</td>
+            <td><input type="date" id="date" name="date"></td>
+            </tr>
+        <tr>
+            <td>Address <br> <br> <br /></td>
+            <td><textarea name="address" id="address" cols="50" rows="10" > </textarea></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="City" maxlength="50" >
+                (Max 50 Characters Allowed)
+                </td>
+                </tr>       
+                <tr>
+                    <td>Pin Code</td>
+                    <td><input type="Number" name="PinCode" maxlength="6" >
+                    (Max 6 Numbers Allowed)
+                    </td>
+                    </tr>
+                    
+                 <tr>
+                 <td>State</td>
+                  <td><input type="text" name="State" maxlength="50" >
+                    (Max 50 Characters Allowed)
+                </td>
+            </tr>
+            
+            <tr>
+            <td>Country</td>
+            <td><input type="text" name="Country" ></td>
+            </tr>
+            <tr>
+                <td>Hobbies <br /><br /><br /></td>
+                <td>
+                <input type="checkbox" class="ch1" name="HobbyDrawing" value="Drawing" />
+                Drawing
+                <input type="checkbox"  class="ch1"  name="HobbySinging" value="Singing" />
+                Singing
+                <input type="checkbox" class="ch1" name="HobbyDancing" value="Dancing" />
+                Dancing
+                <input type="checkbox" class="ch1" name="HobbyCooking" value="Cooking" />
+                Sketching
+                <br />
+                <input type="checkbox" class="ch1" name="HobbyOther" value="Other">
+                Others
+                <input type="text" name="Other_Hobby" maxlength="50" >
+                (Max 50 Characters Allowed)
+                </td>
+                </tr>
+                <tr>
+                    <td>Qualification <br /><br /><br /><br /><br /><br /><br /></td>
+                    <td>
+                        <table class="inner">
+                            <tr>
+                                <td >S.No.</td>
+                                <td  >Examination</td>
+                                <td >Board</td>
+                                <td >Percentage</td>
+                                <td >Year of passing</td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="board" maxlength="10"></td>
+                                <td><input  type="number" name="percentage" maxlength="4"> </td>
+                                <td><input  type="number" name="yearofpassing" maxlength="4"> </td>
+                              </tr>
+                              <tr>
+                               <td>2</td>
+                               <td>Class XII</td>
+                               <td><input type="text" name="board" maxlength="10"></td>
+                               <td><input  type="number" name="percentage" maxlength="4"> </td>
+                               <td><input  type="number" name="yearofpassing" maxlength="4"> </td>
+                             </tr>
+                             <tr>
+                               <td>3</td>
+                               <td>Graduation (UG)</td>
+                               <td><input type="text" name="board" maxlength="10"></td>
+                               <td><input  type="number" name="percentage" maxlength="4"> </td>
+                               <td><input  type="number" name="yearofpassing" maxlength="4"> </td>
+                             </tr>
+                             <tr>
+                               <td>4</td>
+                               <td>Masters (PG)</td>
+                               <td><input type="text" name="board" maxlength="10"></td>
+                               <td><input  type="number" name="percentage" maxlength="4"> </td>
+                               <td><input  type="number" name="yearofpassing" maxlength="4"> </td>
+                             </tr>
+                             <tr>
+                               <td>5</td>
+                               <td>Ph D</td>
+                               <td><input type="text" name="board" maxlength="10">
+                                   </td>
+                               <td><input  type="number" name="percentage" maxlength="4">
+                                    </td>
+                               <td><input  type="number" name="yearofpassing" maxlength="4"> </td>
+                             </tr>
+                             <tr>
+                                <td></td>
+                                <td></td>
+                                <td>(10 Char Max)</td>
+                                <td>(Upto 2 decimal) </td>
+                             </tr>
+
+                             </tr>
+                        </table>
+                    </td>
+                </tr>
+                              
+               
+                
+                <tr>
+                <td>Courses</td>
+                <td>
+                <input type="radio" class="myradio" name="Courses" value="BCA">
+                BCA(Bachelor of Computer Applications)<br>
+                <input type="radio" class="myradio" name="Courses" value="B.Com">
+                B.Com(Bachelor of Commerce)<br>
+                <input type="radio" class="myradio" name="Courses" value="B.Sc">
+                B.Sc(Bachelor of Science)<br>
+                <input type="radio" class="myradio" name="Courses" value="B.A">
+                BA(Bachelor of Arts)<br>
+                
+                </td>
+                </tr>
+               
+                <tr>
+                <td colspan="2" align="center">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                </td>
+                </tr>
+ 
+    </table>
+                
+          
+</body>
+</html>
